@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ol, 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+  
+img, 
+picture, 
+video, 
+canvas, 
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+input, 
+button, 
+textarea, 
+select {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+}

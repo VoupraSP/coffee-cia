@@ -1,0 +1,66 @@
+.header-bg {
+border-radius: 60px;
+margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.header .logo-container {
+    width: 60px;
+}
+
+.header .logo-container > img {
+    border-radius: 50%;
+}
+
+.header .ul-menu {
+    display: flex;
+    gap: 40px;
+}
+
+
+.header .ul-menu li a {
+    font-size: 1.9rem;
+    color: var(--cor-b);
+    padding: 8px 0px;
+    position: relative;
+    display: inline-block;
+}
+
+.header .ul-menu li a:hover {
+    color: var(--cor-4);
+}
+
+.header .ul-menu li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    background-color: var(--cor-4);
+    position: absolute;
+}
+
+.header .ul-menu li a:hover::after{
+    width: 100%;
+}
+
+.header .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--cor-b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .icon svg {
+    width: 30px;
+    height: 30px;
+}
