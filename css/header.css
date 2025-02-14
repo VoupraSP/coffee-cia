@@ -1,6 +1,6 @@
 .header-bg {
-border-radius: 60px;
-margin-top: 20px;
+    position: fixed;
+    width: 100%;
 }
 
 .header {
@@ -12,6 +12,7 @@ margin-top: 20px;
 
 .header .logo-container {
     width: 60px;
+    cursor: pointer;
 }
 
 .header .logo-container > img {
@@ -64,3 +65,8 @@ margin-top: 20px;
     width: 30px;
     height: 30px;
 }
+
+
+
+
+
