@@ -17,8 +17,8 @@
 
             <nav>
                 <ul class="ul-menu">
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Coffee</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#coffee">Coffee</a></li>
                     <li><a href="/">Address</a></li>
                 </ul>
             </nav>
@@ -29,7 +29,7 @@
         </div>
     </header>
 
-    <main class="main-bg" style="display: none;">
+    <main class="main-bg" id="about">
         <div class="main container">
             <h1>Coffe&Cia</h1>
             <h2>This is the best coffe ever made!</h2>
@@ -38,9 +38,55 @@
         </div>
     </main>
 
-    <section>
-
+    <section class="coffee-bg" id="coffee">
+        <div class="coffee container">
+            <h1>
+                COFFEE
+            </h1>
+            <div class="coffee-container">
+                <div class="coffee-content">
+                    <img class="coffee-photo" src="./img/coffe-1.jpg" alt="c1">
+                    <div class="info">
+                        <h3>Coffee 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eos! Est a quod necessitatibus neque obcaecati consectetur reiciendis minima, perferendis amet. Dolor debitis obcaecati voluptatum sapiente.</p>
+                        <button>
+                            Buy
+                        </button>
+                    </div>
+                </div>
+                <div class="coffee-content">
+                    <img class="coffee-photo" src="./img/coffe-2.jpg" alt="c2">
+                    <div class="info">
+                        <h3>Coffee 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eos! Est a quod necessitatibus neque obcaecati consectetur reiciendis minima, perferendis amet. Dolor debitis obcaecati voluptatum sapiente.</p>
+                        <button>
+                            Buy
+                        </button>
+                    </div>
+                </div>
+                <div class="coffee-content">
+                    <img class="coffee-photo" src="./img/coffe-3.jpg" alt="c2">
+                    <div class="info">
+                        <h3>Coffee 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eos! Est a quod necessitatibus neque obcaecati consectetur reiciendis minima, perferendis amet. Dolor debitis obcaecati voluptatum sapiente.</p>
+                        <button>
+                            Buy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section class="address-bg">
+        <div class="address">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15666.453830702698!2d-37.08119094371796!3d-10.99252124442037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab167237f8bdb%3A0xc6c84e933f84914b!2sForneria!5e0!3m2!1spt-PT!2sbr!4v1739658768391!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    
+    <footer>
+        <p><i>Todos os direitos reservados.</i></p>
+    </footer>
     <script>
         feather.replace();
     </script>
